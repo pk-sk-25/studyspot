@@ -36,4 +36,4 @@ Then open the local URL Vite prints (usually `http://localhost:5173`).
 
 ## Live deployment
 
-Deployed at: `<paste your Netlify URL here after deploying>`
+Deployed at: `https://neon-semifreddo-206668.netlify.app/`
