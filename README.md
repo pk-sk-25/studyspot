@@ -16,28 +16,29 @@ StudySpot lets students keep a personal list of good places to study on campus. 
 - "Pick for me" — randomly selects from the currently filtered spots
 - Persistence via `localStorage`
 - Responsive layout (desktop, tablet, mobile)
+- "About this place" lookup on each card, pulling a short summary from Wikipedia's API for that location
 
 Not included on purpose, to stay within the suggested time budget: user accounts/auth and a backend database. The assessment says not everything needs to be covered, and `localStorage` persistence covers the "save my data" need without a backend for a single-user tool like this.
 
 ## Time spent
 
-~ 3 hours
+~3 hours
 
 ## Tech stack
 
-React 18 + Vite, plain CSS. No backend.
+React 18 + Vite, plain CSS. No backend. One external API call (Wikipedia's REST summary endpoint) for the location lookup feature.
 
 ## Running it locally
 
-```bash
-git clone https://github.com/<your-username>/studyspot.git
+\`\`\`bash
+git clone https://github.com/pk-sk-25/studyspot.git
 cd studyspot
 npm install
 npm run dev
-```
+\`\`\`
 
 Then open the local URL Vite prints (usually `http://localhost:5173`).
 
 ## Live deployment
 
-Deployed at: `https://neon-semifreddo-206668.netlify.app/`
+Deployed at: https://neon-semifreddo-206668.netlify.app/
