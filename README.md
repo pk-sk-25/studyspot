@@ -19,10 +19,6 @@ StudySpot lets students keep a personal list of good places to study on campus. 
 
 Not included on purpose, to stay within the suggested time budget: user accounts/auth and a backend database. The assessment says not everything needs to be covered, and `localStorage` persistence covers the "save my data" need without a backend for a single-user tool like this.
 
-## Time spent
-
-~3.5–4 hours (adjust this line to match your actual time before submitting).
-
 ## Tech stack
 
 React 18 + Vite, plain CSS. No backend.
