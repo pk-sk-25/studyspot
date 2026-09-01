@@ -1,4 +1,5 @@
 import { NOISE_STYLE } from "../data.js";
+import LocationInfo from "./LocationInfo.jsx";
 
 export default function SpotCard({ spot, onEdit, onDelete, highlighted }) {
   const style = NOISE_STYLE[spot.noise];
@@ -17,6 +18,7 @@ export default function SpotCard({ spot, onEdit, onDelete, highlighted }) {
             {spot.outlets ? "Outlets available" : "No outlets"}
           </span>
         </div>
+        <LocationInfo location={spot.location} />
       </div>
       <div className="ss-card-actions">
         <button className="ss-icon-btn" onClick={() => onEdit(spot)}>

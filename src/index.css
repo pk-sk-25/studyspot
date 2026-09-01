@@ -44,6 +44,71 @@ body {
   font-size: 14.5px;
 }
 
+.ss-weather {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--card);
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+.ss-weather-loading {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.ss-weather-temp {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.ss-weather-suggestion {
+  color: var(--pine-dark);
+}
+
+.ss-info-toggle {
+  background: none;
+  border: none;
+  color: var(--pine);
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 2px;
+}
+
+.ss-info-toggle:hover {
+  color: var(--pine-dark);
+  text-decoration: underline;
+}
+
+.ss-info-panel {
+  margin-top: 6px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+  font-size: 13px;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+
+.ss-info-panel p {
+  margin: 0 0 6px;
+}
+
+.ss-info-loading {
+  font-style: italic;
+}
+
+.ss-info-muted {
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
 .ss-toolbar {
   max-width: 1080px;
   margin: 22px auto 0;
