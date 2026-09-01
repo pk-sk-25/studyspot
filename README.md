@@ -18,7 +18,7 @@ StudySpot lets students keep a personal list of good places to study on campus. 
 - Responsive layout (desktop, tablet, mobile)
 - "About this place" lookup on each card, pulling a short summary from Wikipedia's API for that location
 
-Not included on purpose, to stay within the suggested time budget: user accounts/auth and a backend database. The assessment says not everything needs to be covered, and `localStorage` persistence covers the "save my data" need without a backend for a single-user tool like this.
+No backend/database — `localStorage` covers persistence for a single-user tool like this within the assessment's suggested time budget.
 
 ## Time spent
 
