@@ -22,7 +22,7 @@ No backend/database — `localStorage` covers persistence for a single-user tool
 
 ## Time spent
 
-~3 hours
+~3.5 hours
 
 ## Tech stack
 
